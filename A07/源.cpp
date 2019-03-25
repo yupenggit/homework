@@ -1,7 +1,6 @@
 #include <iostream>
 int main() {
-	using namespace std;
-	cout.setf(ios_base::fixed, ios_base::floatfield);
+	std::cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
 	const double PI = 3.1416;
 		double r, s, c;
 		std::cout << "请输入圆形半径，按回车键结束: ";
